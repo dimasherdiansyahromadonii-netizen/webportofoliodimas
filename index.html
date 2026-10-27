@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dimas Herdiansyah Romadoni | Portofolio</title>
+  <meta name="description" content="Portofolio pribadi Dimas Herdiansyah Romadoni: proyek, keahlian, dan kontak.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip" href="#tentang">Lompat ke konten</a>
+
+  <!-- ===== MENU DI ATAS ===== -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="logo" href="#tentang">Dimas Herdiansyah Romadoni</a>
+      <nav aria-label="Navigasi utama">
+        <ul>
+          <li><a href="#tentang">Tentang</a></li>
+          <li><a href="#proyek">Proyek</a></li>
+          <li><a href="#keahlian">Keahlian</a></li>
+          <li><a href="#pendidikan">Pendidikan</a></li>
+          <li><a href="#kontak">Kontak</a></li>
+          <li><a href="#tugas">Tugas</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Tiap <section> adalah satu "halaman". Yang tampil hanya yang diklik di menu. -->
+  <main>
+
+    <!-- ===== TENTANG: foto besar di kiri, cerita di kanan ===== -->
+    <section id="tentang" class="halaman tentang">
+      <img class="foto" src="/asset/foto2.jpeg" alt="Foto Dimas Herdiansyah Romadoni">
+
+      <div class="tentang-teks">
+        <h1>Dimas Herdiansyah Romadoni</h1>
+        <p class="lead">
+          Mahasiswa Teknik Informatika di Universitas Muhammadiyah Cirebon yang
+          suka membangun hal-hal kecil di web.
+        </p>
+        <p>
+          Ceritakan di sini hal yang membuat kamu berbeda: apa yang sedang kamu pelajari,
+          jenis proyek yang kamu suka, dan apa yang kamu cari sekarang (magang, kolaborasi,
+          atau proyek freelance). Tulis 2 sampai 3 kalimat saja, singkat dan jujur.
+        </p>
+
+        <dl class="fakta">
+          <div><dt>Kampus</dt><dd>Universitas Muhammadiyah Cirebon</dd></div>
+          <div><dt>Jurusan</dt><dd>Teknik Informatika</dd></div>
+          <div><dt>Sedang dipelajari</dt><dd>Pengembangan web dan analisis algoritma</dd></div>
+        </dl>
+
+        <p class="aksi">
+          <a class="tombol" href="#proyek">Lihat proyek</a>
+          <a class="tombol tombol-kosong" href="#kontak">Hubungi saya</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ===== PROYEK: kartu tiga kolom ===== -->
+    <section id="proyek" class="halaman">
+      <h2>Proyek</h2>
+      <p class="pengantar">Beberapa karya yang pernah saya buat.</p>
+
+      <div class="grid-proyek">
+        <article class="kartu">
+          <h3>Nama Proyek Pertama</h3>
+          <p>Jelaskan dalam satu atau dua kalimat apa yang proyek ini selesaikan dan peran kamu di dalamnya.</p>
+          <p class="teknologi">HTML, CSS, JavaScript</p>
+          <p class="tautan"><a href="#">Lihat demo</a> <a href="#">Lihat kode</a></p>
+        </article>
+
+        <article class="kartu">
+          <h3>Bot Telegram</h3>
+          <p>Bot yang membalas pesan otomatis, dibuat dengan Python.</p>
+          <p class="teknologi">Python, Telegram Bot API</p>
+          <p class="tautan"><a href="#">Lihat kode</a></p>
+        </article>
+
+        <article class="kartu">
+          <h3>Nama Proyek Ketiga</h3>
+          <p>Bisa juga tugas kuliah yang menarik, misalnya visualisasi algoritma pengurutan.</p>
+          <p class="teknologi">JavaScript, Canvas</p>
+          <p class="tautan"><a href="#">Lihat demo</a></p>
+        </article>
+      </div>
+    </section>
+
+<!-- ===== TUGAS: daftar + formulir pengumpulan ===== -->
+<section id="tugas" class="halaman">
+  <h2>Tugas</h2>
+  <p class="pengantar">Tugas kuliah dan status pengerjaannya.</p>
+
+    <div class="daftar-pertemuan">
+  <details class="pertemuan" data-pertemuan="1" open>
+    <summary>
+      <span>Pertemuan 1</span>
+      <span class="jumlah"></span>
+    </summary>
+    <div class="isi">
+      <p class="deskripsi">Tugas: Web Portofolio Analisis &amp; Design PL. Tenggat: 29 Okt 2026.</p>
+      <h3 class="sub">Sudah mengumpulkan</h3>
+      <ul class="terkumpul"></ul>
+    </div>
+  </details>
+</div>
+
+  <h3 class="judul-form">Kumpulkan tugas</h3>
+  <p class="aksi">
+  <a class="tombol" href="https://forms.gle/mnE2DgDnZZFLr9Lf9" target="_blank" rel="noopener">Kumpulkan tugas</a>
+</p>
+<p class="catatan-form">Formulir terbuka di tab baru. Login dengan akun Google untuk mengunggah file.</p>
+</section>
+
+    <!-- ===== KEAHLIAN: kelompok dengan label kecil ===== -->
+    <section id="keahlian" class="halaman">
+      <h2>Keahlian</h2>
+      <p class="pengantar">Hal-hal yang sering saya pakai.</p>
+
+      <div class="grid-keahlian">
+        <div class="kelompok">
+          <h3>Web</h3>
+          <ul class="label">
+            <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Desain responsif</li>
+          </ul>
+        </div>
+        <div class="kelompok">
+          <h3>Pemrograman</h3>
+          <ul class="label">
+            <li>Python</li><li>Analisis algoritma</li><li>Struktur data</li>
+          </ul>
+        </div>
+        <div class="kelompok">
+          <h3>Alat</h3>
+          <ul class="label">
+            <li>Git dan GitHub</li><li>VS Code</li><li>Figma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== KONTAK: tautan besar di tengah ===== -->
+     <!-- ===== PENDIDIKAN: garis waktu ===== -->
+<section id="pendidikan" class="halaman">
+  <h2>Pendidikan</h2>
+  <p class="pengantar">Riwayat pendidikan saya.</p>
+
+  <ol class="garis-waktu">
+    <li>
+      <p class="tahun">2024 sampai sekarang</p>
+      <h3>Universitas Muhammadiyah Cirebon</h3>
+      <p class="jurusan">S1 Teknik Informatika</p>
+    </li>
+
+    <li>
+      <p class="tahun">2021 sampai 2024</p>
+      <h3>SMK Muhammadiyah Lemahabang</h3>
+      <p class="jurusan">Teknik Komputer Jaringan</p>
+    </li>
+
+      <li>
+      <p class="tahun">2016 sampai 2021</p>
+      <h3>SDN 1 Belawa</h3>
+    </li>
+  </ol>
+</section>
+ 
+    <section id="kontak" class="halaman kontak">
+      <h2>Ayo ngobrol</h2>
+      <p class="lead">Ada proyek atau pertanyaan? Kirim pesan, saya biasanya membalas dalam dua hari.</p>
+
+      <ul class="daftar-kontak">
+  <li>
+    <a href="mailto:dimasherdiansyahromadonii@gmail.com">
+      <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+      dimasherdiansyahromadonii@gmail.com
+    </a>
+  </li>
+  <li>
+    <a href="https://github.com/dimasherdiansyahromadonii-netizen" target="_blank" rel="noopener">
+      <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg>
+      github.com/dimasherdiansyahromadonii-netizen
+    </a>
+  </li>
+  <li>
+    <a href="https://linkedin.com/in/dimas-herdiansyah-romadoni-2735703b8" target="_blank" rel="noopener">
+      <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg>
+      linkedin.com/in/dimas-herdiansyah-romadoni-2735703b8
+    </a>
+  </li>
+  <li>
+    <a href="https://instagram.com/dimas_hrdnsyah" target="_blank" rel="noopener">
+      <svg class="ikon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+      instagram.com/dimas_hrdnsyah
+    </a>
+  </li>
+</ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Dimas Herdiansyah Romadoni</p>
+  </footer>
+  <script>
+  const LINK_CSV = "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1pGt4jL6sKiwaFyAbuTvbjEZZGRnMRu00Z6JTcJnS70uZ8eXnlv-FzvgzLTxT8Xc53n0YhQSw0M7d/pub?gid=2096592427&single=true&output=csv";
+
+  function bacaCSV(teks) {
+    const baris = [];
+    let sel = "", row = [], kutip = false;
+    for (let i = 0; i < teks.length; i++) {
+      const c = teks[i];
+      if (kutip) {
+        if (c === '"' && teks[i + 1] === '"') { sel += '"'; i++; }
+        else if (c === '"') kutip = false;
+        else sel += c;
+      } else if (c === '"') kutip = true;
+      else if (c === ",") { row.push(sel); sel = ""; }
+      else if (c === "\n" || c === "\r") {
+        if (c === "\r" && teks[i + 1] === "\n") i++;
+        row.push(sel); baris.push(row); row = []; sel = "";
+      } else sel += c;
+    }
+    if (sel !== "" || row.length) { row.push(sel); baris.push(row); }
+    return baris;
+  }
+
+  const ADMIN = new URLSearchParams(location.search).has("admin");
+const KUNCI = "tugas-tersembunyi";
+
+function ambilTersembunyi() {
+  try { return JSON.parse(localStorage.getItem(KUNCI)) || []; }
+  catch (e) { return []; }
+}
+
+function simpanTersembunyi(daftar) {
+  try { localStorage.setItem(KUNCI, JSON.stringify(daftar)); }
+  catch (e) {}
+}
+
+async function muatPengumpulan() {
+  try {
+    const res = await fetch(LINK_CSV);
+    if (!res.ok) throw new Error("gagal");
+    const data = bacaCSV(await res.text()).slice(1); // buang baris judul kolom
+    const tersembunyi = ambilTersembunyi();
+    const jumlah = {};
+
+    data.forEach(([pertemuan, nama, kelas]) => {
+      const no = (pertemuan || "").replace(/\D/g, "");
+      const daftar = document.querySelector(
+        `details[data-pertemuan="${no}"] .terkumpul`
+      );
+      if (!daftar || !nama) return;
+
+      const kunci = no + "|" + nama + "|" + (kelas || "");
+      const sembunyi = tersembunyi.includes(kunci);
+      if (sembunyi && !ADMIN) return;
+
+      const li = document.createElement("li");
+      if (sembunyi) li.classList.add("redup");
+
+      const tebal = document.createElement("strong");
+      tebal.textContent = nama;
+      li.append(tebal, kelas ? " (" + kelas + ")" : "");
+
+      if (ADMIN) {
+        const tombol = document.createElement("button");
+        tombol.type = "button";
+        tombol.className = "tombol-kecil";
+        tombol.textContent = sembunyi ? "Tampilkan" : "Sembunyikan";
+        tombol.addEventListener("click", () => {
+          const sekarang = ambilTersembunyi();
+          const i = sekarang.indexOf(kunci);
+          if (i === -1) sekarang.push(kunci);
+          else sekarang.splice(i, 1);
+          simpanTersembunyi(sekarang);
+          location.reload();
+        });
+        li.append(" ", tombol);
+      }
+
+      daftar.appendChild(li);
+      if (!sembunyi) jumlah[no] = (jumlah[no] || 0) + 1;
+    });
+
+    document.querySelectorAll(".pertemuan").forEach((p) => {
+      const n = jumlah[p.dataset.pertemuan] || 0;
+      const ul = p.querySelector(".terkumpul");
+      p.querySelector(".jumlah").textContent = n ? n + " terkumpul" : "";
+      if (ul.children.length === 0) {
+        ul.innerHTML = '<li class="kosong">Belum ada yang mengumpulkan.</li>';
+      }
+    });
+  } catch (e) {
+    document.querySelectorAll(".terkumpul").forEach((u) => {
+      u.innerHTML = '<li class="kosong">Daftar belum bisa dimuat.</li>';
+    });
+  }
+}
+
+  muatPengumpulan();
+</script>
+</body>
+</html>
